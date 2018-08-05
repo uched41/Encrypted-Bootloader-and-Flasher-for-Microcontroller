@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\fmcuser.o"
+".\objects\aes.o"
+".\objects\commands.o"
+".\objects\target.o"
+".\objects\retarget.o"
+".\objects\startup_m451series.o"
+".\objects\system_m451series.o"
+--strict --scatter ".\Objects\bootloader1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\bootloader1.map" -o .\Objects\bootloader1.axf

@@ -1,0 +1,523 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined total of 0 calls.
+
+==============================================================================
+
+Section Cross References
+
+    system_m451series.o(i.SystemCoreClockUpdate) refers to system_m451series.o(.data) for .data
+    startup_m451series.o(RESET) refers to startup_m451series.o(STACK) for __initial_sp
+    startup_m451series.o(RESET) refers to startup_m451series.o(.text) for Reset_Handler
+    startup_m451series.o(RESET) refers to main.o(i.SysTick_Handler) for SysTick_Handler
+    startup_m451series.o(RESET) refers to main.o(i.UART0_IRQHandler) for UART0_IRQHandler
+    startup_m451series.o(.text) refers to system_m451series.o(i.SystemInit) for SystemInit
+    startup_m451series.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    main.o(i.CLK_SysTickDelay) refers to system_m451series.o(.data) for CyclesPerUs
+    main.o(i.SYS_Init) refers to system_m451series.o(.data) for PllClock
+    main.o(i.SysTick_Handler) refers to main.o(.data) for .data
+    main.o(i.UART0_IRQHandler) refers to main.o(.data) for .data
+    main.o(i.UART0_IRQHandler) refers to main.o(.bss) for .bss
+    main.o(i.generateBuffers) refers to main.o(.bss) for .bss
+    main.o(i.main) refers to main.o(i.generateBuffers) for generateBuffers
+    main.o(i.main) refers to main.o(i.SYS_Init) for SYS_Init
+    main.o(i.main) refers to main.o(i.startApplication) for startApplication
+    main.o(i.main) refers to main.o(i.UART0_Init) for UART0_Init
+    main.o(i.main) refers to target.o(i.GetApromSize) for GetApromSize
+    main.o(i.main) refers to target.o(i.GetDataFlashInfo) for GetDataFlashInfo
+    main.o(i.main) refers to aes.o(i.AES_init_ctx_iv) for AES_init_ctx_iv
+    main.o(i.main) refers to aes.o(i.AES_CBC_decrypt_buffer) for AES_CBC_decrypt_buffer
+    main.o(i.main) refers to commands.o(i.isStartData) for isStartData
+    main.o(i.main) refers to main.o(i.replyPC) for replyPC
+    main.o(i.main) refers to commands.o(i.parseData) for parseData
+    main.o(i.main) refers to main.o(i.CLK_SysTickDelay) for CLK_SysTickDelay
+    main.o(i.main) refers to system_m451series.o(.data) for SystemCoreClock
+    main.o(i.main) refers to commands.o(.data) for g_apromSize
+    main.o(i.main) refers to commands.o(.data) for g_dataFlashSize
+    main.o(i.main) refers to commands.o(.data) for g_dataFlashAddr
+    main.o(i.main) refers to main.o(.data) for .data
+    main.o(i.main) refers to main.o(.bss) for .bss
+    main.o(i.replyPC) refers to main.o(i.CLK_SysTickDelay) for CLK_SysTickDelay
+    aes.o(i.AES_CBC_decrypt_buffer) refers to memcpya.o(.text) for __aeabi_memcpy
+    aes.o(i.AES_CBC_decrypt_buffer) refers to aes.o(i.AddRoundKey) for AddRoundKey
+    aes.o(i.AES_CBC_decrypt_buffer) refers to aes.o(i.InvShiftRows) for InvShiftRows
+    aes.o(i.AES_CBC_decrypt_buffer) refers to aes.o(i.InvSubBytes) for InvSubBytes
+    aes.o(i.AES_CBC_decrypt_buffer) refers to aes.o(i.InvMixColumns) for InvMixColumns
+    aes.o(i.AES_CBC_decrypt_buffer) refers to aes.o(i.XorWithIv) for XorWithIv
+    aes.o(i.AES_CBC_encrypt_buffer) refers to aes.o(i.XorWithIv) for XorWithIv
+    aes.o(i.AES_CBC_encrypt_buffer) refers to aes.o(i.AddRoundKey) for AddRoundKey
+    aes.o(i.AES_CBC_encrypt_buffer) refers to aes.o(i.SubBytes) for SubBytes
+    aes.o(i.AES_CBC_encrypt_buffer) refers to aes.o(i.ShiftRows) for ShiftRows
+    aes.o(i.AES_CBC_encrypt_buffer) refers to aes.o(i.MixColumns) for MixColumns
+    aes.o(i.AES_CBC_encrypt_buffer) refers to memcpya.o(.text) for __aeabi_memcpy
+    aes.o(i.AES_ctx_set_iv) refers to memcpya.o(.text) for __aeabi_memcpy
+    aes.o(i.AES_generateSBox) refers to aes.o(.bss) for .bss
+    aes.o(i.AES_init_ctx) refers to aes.o(i.AES_generateSBox) for AES_generateSBox
+    aes.o(i.AES_init_ctx) refers to aes.o(i.KeyExpansion) for KeyExpansion
+    aes.o(i.AES_init_ctx_iv) refers to aes.o(i.AES_generateSBox) for AES_generateSBox
+    aes.o(i.AES_init_ctx_iv) refers to aes.o(i.KeyExpansion) for KeyExpansion
+    aes.o(i.AES_init_ctx_iv) refers to memcpya.o(.text) for __aeabi_memcpy
+    aes.o(i.InvMixColumns) refers to aes.o(i.xtime) for xtime
+    aes.o(i.InvSubBytes) refers to aes.o(.bss) for .bss
+    aes.o(i.KeyExpansion) refers to aes.o(.bss) for .bss
+    aes.o(i.KeyExpansion) refers to aes.o(.data) for .data
+    aes.o(i.MixColumns) refers to aes.o(i.xtime) for xtime
+    aes.o(i.SubBytes) refers to aes.o(.bss) for .bss
+    commands.o(i.EraseAP) refers to fmcuser.o(i.FMC_Erase_User) for FMC_Erase_User
+    commands.o(i.isStartData) refers to commands.o(i.EraseAP) for EraseAP
+    commands.o(i.isStartData) refers to commands.o(.data) for .data
+    commands.o(i.parseData) refers to fmcuser.o(i.WriteData) for WriteData
+    commands.o(i.parseData) refers to commands.o(.data) for .data
+    fmcuser.o(i.ReadData) refers to fmcuser.o(i.FMC_Read_User) for FMC_Read_User
+    fmcuser.o(i.WriteData) refers to fmcuser.o(i.FMC_Write_User) for FMC_Write_User
+    target.o(i.GetApromSize) refers to fmcuser.o(i.FMC_Read_User) for FMC_Read_User
+    target.o(i.GetApromSize) refers to target.o(.constdata) for .constdata
+    target.o(i.GetDataFlashInfo) refers to fmcuser.o(i.FMC_Read_User) for FMC_Read_User
+    target.o(i.GetDataFlashInfo) refers to commands.o(.data) for g_apromSize
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_m451series.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_m451series.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing system_m451series.o(.rev16_text), (4 bytes).
+    Removing system_m451series.o(.revsh_text), (4 bytes).
+    Removing system_m451series.o(i.SystemCoreClockUpdate), (148 bytes).
+    Removing startup_m451series.o(HEAP), (0 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing aes.o(i.AES_CBC_encrypt_buffer), (118 bytes).
+    Removing aes.o(i.AES_ctx_set_iv), (8 bytes).
+    Removing aes.o(i.AES_init_ctx), (22 bytes).
+    Removing aes.o(i.MixColumns), (114 bytes).
+    Removing aes.o(i.ShiftRows), (50 bytes).
+    Removing aes.o(i.SubBytes), (40 bytes).
+    Removing commands.o(.rev16_text), (4 bytes).
+    Removing commands.o(.revsh_text), (4 bytes).
+    Removing commands.o(.data), (2 bytes).
+    Removing fmcuser.o(.rev16_text), (4 bytes).
+    Removing fmcuser.o(.revsh_text), (4 bytes).
+    Removing fmcuser.o(i.ReadData), (28 bytes).
+    Removing target.o(.rev16_text), (4 bytes).
+    Removing target.o(.revsh_text), (4 bytes).
+
+20 unused section(s) (total 570 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      320  startup_m451series.o(RESET)
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ..\..\..\..\Library\Device\Nuvoton\M451Series\Source\ARM\startup_M451Series.s 0x00000000   Number         0  startup_m451series.o ABSOLUTE
+    ..\..\..\..\Library\Device\Nuvoton\M451Series\Source\system_M451Series.c 0x00000000   Number         0  system_m451series.o ABSOLUTE
+    ..\\..\\..\\..\\Library\\Device\\Nuvoton\\M451Series\\Source\\system_M451Series.c 0x00000000   Number         0  system_m451series.o ABSOLUTE
+    ..\\commands.c                           0x00000000   Number         0  commands.o ABSOLUTE
+    ..\\fmcUser.c                            0x00000000   Number         0  fmcuser.o ABSOLUTE
+    ..\\main.c                               0x00000000   Number         0  main.o ABSOLUTE
+    ..\\target.c                             0x00000000   Number         0  target.o ABSOLUTE
+    ..\aes.c                                 0x00000000   Number         0  aes.o ABSOLUTE
+    ..\commands.c                            0x00000000   Number         0  commands.o ABSOLUTE
+    ..\fmcUser.c                             0x00000000   Number         0  fmcuser.o ABSOLUTE
+    ..\main.c                                0x00000000   Number         0  main.o ABSOLUTE
+    ..\target.c                              0x00000000   Number         0  target.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x00000140   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x00000140   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x00000144   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x00000148   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x00000148   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x00000148   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x00000150   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x00000150   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x00000150   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x00000150   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x00000154   Section       92  startup_m451series.o(.text)
+    $v0                                      0x00000154   Number         0  startup_m451series.o(.text)
+    Default_Handler                          0x00000199   Thumb Code     2  startup_m451series.o(.text)
+    .text                                    0x000001b0   Section        0  memcpya.o(.text)
+    .text                                    0x000001d4   Section       36  init.o(.text)
+    i.AES_CBC_decrypt_buffer                 0x000001f8   Section        0  aes.o(i.AES_CBC_decrypt_buffer)
+    i.AES_generateSBox                       0x00000278   Section        0  aes.o(i.AES_generateSBox)
+    i.AES_init_ctx_iv                        0x000002ec   Section        0  aes.o(i.AES_init_ctx_iv)
+    i.AddRoundKey                            0x00000310   Section        0  aes.o(i.AddRoundKey)
+    AddRoundKey                              0x00000311   Thumb Code    48  aes.o(i.AddRoundKey)
+    i.CLK_SysTickDelay                       0x00000340   Section        0  main.o(i.CLK_SysTickDelay)
+    CLK_SysTickDelay                         0x00000341   Thumb Code    30  main.o(i.CLK_SysTickDelay)
+    i.EraseAP                                0x00000364   Section        0  commands.o(i.EraseAP)
+    i.FMC_Erase_User                         0x0000037c   Section        0  fmcuser.o(i.FMC_Erase_User)
+    i.FMC_Read_User                          0x000003a0   Section        0  fmcuser.o(i.FMC_Read_User)
+    i.FMC_Write_User                         0x000003c8   Section        0  fmcuser.o(i.FMC_Write_User)
+    i.GetApromSize                           0x000003ec   Section        0  target.o(i.GetApromSize)
+    i.GetDataFlashInfo                       0x00000420   Section        0  target.o(i.GetDataFlashInfo)
+    i.InvMixColumns                          0x00000470   Section        0  aes.o(i.InvMixColumns)
+    InvMixColumns                            0x00000471   Thumb Code   932  aes.o(i.InvMixColumns)
+    i.InvShiftRows                           0x00000814   Section        0  aes.o(i.InvShiftRows)
+    InvShiftRows                             0x00000815   Thumb Code    50  aes.o(i.InvShiftRows)
+    i.InvSubBytes                            0x00000848   Section        0  aes.o(i.InvSubBytes)
+    InvSubBytes                              0x00000849   Thumb Code    36  aes.o(i.InvSubBytes)
+    i.KeyExpansion                           0x00000870   Section        0  aes.o(i.KeyExpansion)
+    KeyExpansion                             0x00000871   Thumb Code   162  aes.o(i.KeyExpansion)
+    i.SYS_Init                               0x0000091c   Section        0  main.o(i.SYS_Init)
+    SYS_Init                                 0x0000091d   Thumb Code   186  main.o(i.SYS_Init)
+    i.SysTick_Handler                        0x000009ec   Section        0  main.o(i.SysTick_Handler)
+    i.SystemInit                             0x000009fc   Section        0  system_m451series.o(i.SystemInit)
+    i.UART0_IRQHandler                       0x00000a50   Section        0  main.o(i.UART0_IRQHandler)
+    i.UART0_Init                             0x00000a9c   Section        0  main.o(i.UART0_Init)
+    UART0_Init                               0x00000a9d   Thumb Code    92  main.o(i.UART0_Init)
+    i.WriteData                              0x00000b04   Section        0  fmcuser.o(i.WriteData)
+    i.XorWithIv                              0x00000b20   Section        0  aes.o(i.XorWithIv)
+    XorWithIv                                0x00000b21   Thumb Code    22  aes.o(i.XorWithIv)
+    i.__scatterload_copy                     0x00000b36   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00000b44   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00000b46   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.generateBuffers                        0x00000b54   Section        0  main.o(i.generateBuffers)
+    i.isStartData                            0x00000b74   Section        0  commands.o(i.isStartData)
+    i.main                                   0x00000ba4   Section        0  main.o(i.main)
+    i.parseData                              0x00000d00   Section        0  commands.o(i.parseData)
+    i.replyPC                                0x00000d58   Section        0  main.o(i.replyPC)
+    replyPC                                  0x00000d59   Thumb Code    26  main.o(i.replyPC)
+    i.startApplication                       0x00000d78   Section        0  main.o(i.startApplication)
+    startApplication                         0x00000d79   Thumb Code    26  main.o(i.startApplication)
+    i.xtime                                  0x00000da0   Section        0  aes.o(i.xtime)
+    xtime                                    0x00000da1   Thumb Code    18  aes.o(i.xtime)
+    .constdata                               0x00000db4   Section       16  target.o(.constdata)
+    .data                                    0x20000000   Section       44  system_m451series.o(.data)
+    .data                                    0x2000002c   Section       40  main.o(.data)
+    .data                                    0x20000054   Section       11  aes.o(.data)
+    Rcon                                     0x20000054   Data          11  aes.o(.data)
+    .data                                    0x20000060   Section       12  commands.o(.data)
+    .data                                    0x2000006c   Section        4  commands.o(.data)
+    .data                                    0x20000070   Section        4  commands.o(.data)
+    .bss                                     0x20000074   Section       48  main.o(.bss)
+    .bss                                     0x200000a4   Section      512  aes.o(.bss)
+    STACK                                    0x200002a8   Section     1024  startup_m451series.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPi3$EXTD16$VFPS$VFMA$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_m451series.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x00000140   Data           0  startup_m451series.o(RESET)
+    __Vectors_Size                           0x00000140   Number         0  startup_m451series.o ABSOLUTE
+    __main                                   0x00000141   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x00000141   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x00000145   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x00000149   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x00000149   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x00000149   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x00000149   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x00000151   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x00000151   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x00000155   Thumb Code    50  startup_m451series.o(.text)
+    NMI_Handler                              0x00000187   Thumb Code     2  startup_m451series.o(.text)
+    HardFault_Handler                        0x00000189   Thumb Code     2  startup_m451series.o(.text)
+    MemManage_Handler                        0x0000018b   Thumb Code     2  startup_m451series.o(.text)
+    BusFault_Handler                         0x0000018d   Thumb Code     2  startup_m451series.o(.text)
+    UsageFault_Handler                       0x0000018f   Thumb Code     2  startup_m451series.o(.text)
+    SVC_Handler                              0x00000191   Thumb Code     2  startup_m451series.o(.text)
+    DebugMon_Handler                         0x00000193   Thumb Code     2  startup_m451series.o(.text)
+    PendSV_Handler                           0x00000195   Thumb Code     2  startup_m451series.o(.text)
+    ACMP01_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    ADC00_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    ADC01_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    ADC02_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    ADC03_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    BOD_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    BRAKE0_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    BRAKE1_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    CAN0_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    CLKFAIL_IRQHandler                       0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    DAC_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    EINT0_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    EINT1_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    EINT2_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    EINT3_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    EINT4_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    EINT5_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    GPA_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    GPB_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    GPC_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    GPD_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    GPE_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    GPF_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    I2C0_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    I2C1_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    IRC_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PDMA_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWM0P0_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWM0P1_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWM0P2_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWM1P0_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWM1P1_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWM1P2_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    PWRWU_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    RAMPE_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    RTC_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    SC0_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    SPI0_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    SPI1_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    SPI2_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    TAMPER_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    TK_IRQHandler                            0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    TMR0_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    TMR1_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    TMR2_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    TMR3_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    UART1_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    UART2_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    UART3_IRQHandler                         0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    USBD_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    USBH_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    USBOTG_IRQHandler                        0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    WDT_IRQHandler                           0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    WWDT_IRQHandler                          0x00000199   Thumb Code     0  startup_m451series.o(.text)
+    __aeabi_memcpy                           0x000001b1   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x000001b1   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x000001b1   Thumb Code     0  memcpya.o(.text)
+    __scatterload                            0x000001d5   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x000001d5   Thumb Code     0  init.o(.text)
+    AES_CBC_decrypt_buffer                   0x000001f9   Thumb Code   128  aes.o(i.AES_CBC_decrypt_buffer)
+    AES_generateSBox                         0x00000279   Thumb Code   108  aes.o(i.AES_generateSBox)
+    AES_init_ctx_iv                          0x000002ed   Thumb Code    36  aes.o(i.AES_init_ctx_iv)
+    EraseAP                                  0x00000365   Thumb Code    24  commands.o(i.EraseAP)
+    FMC_Erase_User                           0x0000037d   Thumb Code    30  fmcuser.o(i.FMC_Erase_User)
+    FMC_Read_User                            0x000003a1   Thumb Code    36  fmcuser.o(i.FMC_Read_User)
+    FMC_Write_User                           0x000003c9   Thumb Code    32  fmcuser.o(i.FMC_Write_User)
+    GetApromSize                             0x000003ed   Thumb Code    46  target.o(i.GetApromSize)
+    GetDataFlashInfo                         0x00000421   Thumb Code    72  target.o(i.GetDataFlashInfo)
+    SysTick_Handler                          0x000009ed   Thumb Code    10  main.o(i.SysTick_Handler)
+    SystemInit                               0x000009fd   Thumb Code    80  system_m451series.o(i.SystemInit)
+    UART0_IRQHandler                         0x00000a51   Thumb Code    64  main.o(i.UART0_IRQHandler)
+    WriteData                                0x00000b05   Thumb Code    28  fmcuser.o(i.WriteData)
+    __scatterload_copy                       0x00000b37   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00000b45   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00000b47   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    generateBuffers                          0x00000b55   Thumb Code    26  main.o(i.generateBuffers)
+    isStartData                              0x00000b75   Thumb Code    42  commands.o(i.isStartData)
+    main                                     0x00000ba5   Thumb Code   298  main.o(i.main)
+    parseData                                0x00000d01   Thumb Code    82  commands.o(i.parseData)
+    Region$$Table$$Base                      0x00000dc4   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00000de4   Number         0  anon$$obj.o(Region$$Table)
+    SystemCoreClock                          0x20000000   Data           4  system_m451series.o(.data)
+    CyclesPerUs                              0x20000004   Data           4  system_m451series.o(.data)
+    PllClock                                 0x20000008   Data           4  system_m451series.o(.data)
+    gau32ClkSrcTbl                           0x2000000c   Data          32  system_m451series.o(.data)
+    bufhead                                  0x2000002c   Data           1  main.o(.data)
+    bUartDataReady                           0x2000002d   Data           1  main.o(.data)
+    msTicks                                  0x20000030   Data           4  main.o(.data)
+    keyMCU                                   0x20000034   Data          16  main.o(.data)
+    ivMCU                                    0x20000044   Data          16  main.o(.data)
+    apromCounter                             0x20000060   Data           4  commands.o(.data)
+    checkSum                                 0x20000064   Data           4  commands.o(.data)
+    g_dataFlashAddr                          0x20000068   Data           4  commands.o(.data)
+    g_apromSize                              0x2000006c   Data           4  commands.o(.data)
+    g_dataFlashSize                          0x20000070   Data           4  commands.o(.data)
+    uart_rcvbuf                              0x20000074   Data          16  main.o(.bss)
+    nextMsg                                  0x20000084   Data          16  main.o(.bss)
+    endMsg                                   0x20000094   Data          16  main.o(.bss)
+    sbox                                     0x200000a4   Data         256  aes.o(.bss)
+    rsbox                                    0x200001a4   Data         256  aes.o(.bss)
+    __initial_sp                             0x200006a8   Data           0  startup_m451series.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000155
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00000e58, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000de4, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x00000140   Data   RO          130    RESET               startup_m451series.o
+    0x00000140   0x00000140   0x00000000   Code   RO          642  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x00000140   0x00000140   0x00000004   Code   RO          647    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x00000144   0x00000144   0x00000004   Code   RO          650    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x00000148   0x00000148   0x00000000   Code   RO          652    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x00000148   0x00000148   0x00000000   Code   RO          654    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x00000148   0x00000148   0x00000008   Code   RO          655    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x00000150   0x00000150   0x00000000   Code   RO          657    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x00000150   0x00000150   0x00000000   Code   RO          659    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x00000150   0x00000150   0x00000004   Code   RO          648    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x00000154   0x00000154   0x0000005c   Code   RO          131  * .text               startup_m451series.o
+    0x000001b0   0x000001b0   0x00000024   Code   RO          643    .text               mc_w.l(memcpya.o)
+    0x000001d4   0x000001d4   0x00000024   Code   RO          661    .text               mc_w.l(init.o)
+    0x000001f8   0x000001f8   0x00000080   Code   RO          306    i.AES_CBC_decrypt_buffer  aes.o
+    0x00000278   0x00000278   0x00000074   Code   RO          309    i.AES_generateSBox  aes.o
+    0x000002ec   0x000002ec   0x00000024   Code   RO          311    i.AES_init_ctx_iv   aes.o
+    0x00000310   0x00000310   0x00000030   Code   RO          312    i.AddRoundKey       aes.o
+    0x00000340   0x00000340   0x00000024   Code   RO          137    i.CLK_SysTickDelay  main.o
+    0x00000364   0x00000364   0x00000018   Code   RO          407    i.EraseAP           commands.o
+    0x0000037c   0x0000037c   0x00000024   Code   RO          502    i.FMC_Erase_User    fmcuser.o
+    0x000003a0   0x000003a0   0x00000028   Code   RO          503    i.FMC_Read_User     fmcuser.o
+    0x000003c8   0x000003c8   0x00000024   Code   RO          504    i.FMC_Write_User    fmcuser.o
+    0x000003ec   0x000003ec   0x00000034   Code   RO          585    i.GetApromSize      target.o
+    0x00000420   0x00000420   0x00000050   Code   RO          586    i.GetDataFlashInfo  target.o
+    0x00000470   0x00000470   0x000003a4   Code   RO          313    i.InvMixColumns     aes.o
+    0x00000814   0x00000814   0x00000032   Code   RO          314    i.InvShiftRows      aes.o
+    0x00000846   0x00000846   0x00000002   PAD
+    0x00000848   0x00000848   0x00000028   Code   RO          315    i.InvSubBytes       aes.o
+    0x00000870   0x00000870   0x000000ac   Code   RO          316    i.KeyExpansion      aes.o
+    0x0000091c   0x0000091c   0x000000d0   Code   RO          138    i.SYS_Init          main.o
+    0x000009ec   0x000009ec   0x00000010   Code   RO          139    i.SysTick_Handler   main.o
+    0x000009fc   0x000009fc   0x00000054   Code   RO            4    i.SystemInit        system_m451series.o
+    0x00000a50   0x00000a50   0x0000004c   Code   RO          140    i.UART0_IRQHandler  main.o
+    0x00000a9c   0x00000a9c   0x00000068   Code   RO          141    i.UART0_Init        main.o
+    0x00000b04   0x00000b04   0x0000001c   Code   RO          506    i.WriteData         fmcuser.o
+    0x00000b20   0x00000b20   0x00000016   Code   RO          320    i.XorWithIv         aes.o
+    0x00000b36   0x00000b36   0x0000000e   Code   RO          665    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x00000b44   0x00000b44   0x00000002   Code   RO          666    i.__scatterload_null  mc_w.l(handlers.o)
+    0x00000b46   0x00000b46   0x0000000e   Code   RO          667    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x00000b54   0x00000b54   0x00000020   Code   RO          142    i.generateBuffers   main.o
+    0x00000b74   0x00000b74   0x00000030   Code   RO          408    i.isStartData       commands.o
+    0x00000ba4   0x00000ba4   0x0000015c   Code   RO          143    i.main              main.o
+    0x00000d00   0x00000d00   0x00000058   Code   RO          409    i.parseData         commands.o
+    0x00000d58   0x00000d58   0x00000020   Code   RO          144    i.replyPC           main.o
+    0x00000d78   0x00000d78   0x00000028   Code   RO          145    i.startApplication  main.o
+    0x00000da0   0x00000da0   0x00000012   Code   RO          321    i.xtime             aes.o
+    0x00000db2   0x00000db2   0x00000002   PAD
+    0x00000db4   0x00000db4   0x00000010   Data   RO          587    .constdata          target.o
+    0x00000dc4   0x00000dc4   0x00000020   Data   RO          663    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00000de4, Size: 0x00000074, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000de4   0x0000002c   Data   RW            5    .data               system_m451series.o
+    0x2000002c   0x00000e10   0x00000028   Data   RW          147    .data               main.o
+    0x20000054   0x00000e38   0x0000000b   Data   RW          323    .data               aes.o
+    0x2000005f   0x00000e43   0x00000001   PAD
+    0x20000060   0x00000e44   0x0000000c   Data   RW          411    .data               commands.o
+    0x2000006c   0x00000e50   0x00000004   Data   RW          412    .data               commands.o
+    0x20000070   0x00000e54   0x00000004   Data   RW          413    .data               commands.o
+
+
+    Execution Region ER_ZI (Exec base: 0x20000074, Load base: 0x00000e58, Size: 0x00000634, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000074        -       0x00000030   Zero   RW          146    .bss                main.o
+    0x200000a4        -       0x00000200   Zero   RW          322    .bss                aes.o
+    0x200002a4   0x00000e58   0x00000004   PAD
+    0x200002a8        -       0x00000400   Zero   RW          128    STACK               startup_m451series.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      1562         22          0         11        512       7911   aes.o
+       160         12          0         20          0       3713   commands.o
+       140         14          0          0          0       2686   fmcuser.o
+       892        134          0         40         48     266322   main.o
+        92         22        320          0       1024        972   startup_m451series.o
+        84          4          0         44          0      36627   system_m451series.o
+       132         14         16          0          0       1946   target.o
+
+    ----------------------------------------------------------------------
+      3066        222        368        116       1588     320177   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         4          0          0          1          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+        36          0          0          0          0         68   memcpya.o
+
+    ----------------------------------------------------------------------
+       122         16          0          0          0        136   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       122         16          0          0          0        136   mc_w.l
+
+    ----------------------------------------------------------------------
+       122         16          0          0          0        136   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      3188        238        368        116       1588     318117   Grand Totals
+      3188        238        368        116       1588     318117   ELF Image Totals
+      3188        238        368        116          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 3556 (   3.47kB)
+    Total RW  Size (RW Data + ZI Data)              1704 (   1.66kB)
+    Total ROM Size (Code + RO Data + RW Data)       3672 (   3.59kB)
+
+==============================================================================
+

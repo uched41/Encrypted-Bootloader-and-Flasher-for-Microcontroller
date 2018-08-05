@@ -1,0 +1,12 @@
+--cpu=Cortex-M4.fp
+".\obj\system_m451series.o"
+".\obj\startup_m451series.o"
+".\obj\main.o"
+".\obj\aes.o"
+".\obj\commands.o"
+".\obj\fmcuser.o"
+".\obj\target.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_M451Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\M451_ISP_UART0_PD0_PD1.map" -o .\obj\M451_ISP_UART0_PD0_PD1.axf

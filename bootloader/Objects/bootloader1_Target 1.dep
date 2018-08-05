@@ -1,0 +1,214 @@
+Dependencies for Project 'bootloader1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5B53ABF2)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\M451Series.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\system_M451Series.h)(0x55E99CEC)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sys.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\clk.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\gpio.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\i2c.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\crc.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\ebi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\rtc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\timer.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wwdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\spi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\scuart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\acmp.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\eadc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\dac.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\can.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\usbd.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\fmc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\uart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pwm.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pdma.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\tk.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\otg.h)(0x55E99CF0)
+I (aes.h)(0x5B51FE31)
+I (commands.h)(0x5B53A5EB)
+F (.\main.h)(0x5B51EBCD)()
+F (.\fmcUser.c)(0x5B524EC9)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\fmcuser.o --omf_browse .\objects\fmcuser.crf --depend .\objects\fmcuser.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (fmcUser.h)(0x5B524EDA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\M451Series.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\system_M451Series.h)(0x55E99CEC)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sys.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\clk.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\gpio.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\i2c.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\crc.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\ebi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\rtc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\timer.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wwdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\spi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\scuart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\acmp.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\eadc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\dac.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\can.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\usbd.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\fmc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\uart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pwm.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pdma.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\tk.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\otg.h)(0x55E99CF0)
+F (.\fmcUser.h)(0x5B524EDA)()
+F (.\aes.c)(0x5B524B7A)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\aes.o --omf_browse .\objects\aes.crf --depend .\objects\aes.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F137C)
+I (aes.h)(0x5B51FE31)
+F (.\aes.h)(0x5B51FE31)()
+F (.\commands.h)(0x5B53A5EB)()
+F (.\commands.c)(0x5B53ABF0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\commands.o --omf_browse .\objects\commands.crf --depend .\objects\commands.d)
+I (commands.h)(0x5B53A5EB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\M451Series.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\system_M451Series.h)(0x55E99CEC)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sys.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\clk.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\gpio.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\i2c.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\crc.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\ebi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\rtc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\timer.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wwdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\spi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\scuart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\acmp.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\eadc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\dac.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\can.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\usbd.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\fmc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\uart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pwm.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pdma.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\tk.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\otg.h)(0x55E99CF0)
+I (fmcUser.h)(0x5B524EDA)
+F (.\target.c)(0x5B528013)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\target.o --omf_browse .\objects\target.crf --depend .\objects\target.d)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\M451Series.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\system_M451Series.h)(0x55E99CEC)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sys.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\clk.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\gpio.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\i2c.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\crc.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\ebi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\rtc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\timer.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wwdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\spi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\scuart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\acmp.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\eadc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\dac.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\can.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\usbd.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\fmc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\uart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pwm.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pdma.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\tk.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\otg.h)(0x55E99CF0)
+I (commands.h)(0x5B53A5EB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (fmcUser.h)(0x5B524EDA)
+F (RTE\Device\M453VG6AE\retarget.c)(0x5AAA6B08)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F137C)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\M451Series.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\system_M451Series.h)(0x55E99CEC)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sys.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\clk.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\gpio.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\i2c.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\crc.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\ebi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\rtc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\timer.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wwdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\spi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\scuart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\acmp.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\eadc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\dac.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\can.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\usbd.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\fmc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\uart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pwm.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pdma.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\tk.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\otg.h)(0x55E99CF0)
+F (RTE\Device\M453VG6AE\startup_M451Series.s)(0x55E99CEC)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1"--list .\listings\startup_m451series.lst --xref -o .\objects\startup_m451series.o --depend .\objects\startup_m451series.d)
+F (RTE\Device\M453VG6AE\system_M451Series.c)(0x55E99CEC)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -D_RTE_-o .\objects\system_m451series.o --omf_browse .\objects\system_m451series.crf --depend .\objects\system_m451series.d)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\M451Series.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F137E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D31EA)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Include\system_M451Series.h)(0x55E99CEC)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sys.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\clk.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\gpio.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\i2c.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\crc.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\ebi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\rtc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\timer.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\wwdt.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\spi.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\sc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\scuart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\acmp.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\eadc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\dac.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\can.h)(0x55E99CEE)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\usbd.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\fmc.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\uart.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pwm.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\pdma.h)(0x5AAA6B08)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\tk.h)(0x55E99CF0)
+I (C:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.2.1\Device\M451\Driver\otg.h)(0x55E99CF0)
